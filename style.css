@@ -1,0 +1,62 @@
+body{
+    font-family: 'Abril Fatface', cursive;
+    background-color: lightgoldenrodyellow;
+    background-image:url("forest2.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+
+.header_div{
+    background: white;
+    color: brown;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.header_div p{
+font-family:'Roboto',sans-serif;
+color: gray;
+letter-spacing: 2px;
+font-size: 12px;
+font-weight: bold;
+
+}
+
+#start{
+margin-top:30px;
+width:140px;
+animation-name:example ;
+animation-duration: 3s;
+background-color: greenyellow;
+height:35px;
+
+
+}
+
+#Result_Label{
+    color: white;
+}
+#Result_Confidence{
+    color: white;
+}
+
+@keyframes example{
+    0%   {background-color:green; }
+    25%  {background-color:brown; }
+    50%  {background-color:blue; }
+    75%  {background-color:brown;}
+    100% {background-color:green;  }
+}
+
+.CopyrightFooter{
+    position:fixed;
+    color:#6c757d;
+    bottom:0;
+    width:100%;
+    font-size:18px;
+    background-color:white;
+    text-align:center;
+    text-shadow:5px 5px 5px rgb(151, 149, 149);
+    line-height:3;
+}
+    
